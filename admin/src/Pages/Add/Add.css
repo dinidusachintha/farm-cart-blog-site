@@ -1,0 +1,118 @@
+.add{
+    width: 70%;
+    margin-left: max(5vw,25px);
+    margin-top: 50px;
+    color: #6d6d6d;
+    font-size: 16px;
+}
+
+.add form{
+    gap: 20px;
+
+}
+
+.add-img-upload img{
+    width: 220px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.add-blog-name, .add-blog-description{
+    width: max(40%,280px);
+}
+
+.add-blog-name input, .add-blog-description textarea{
+    padding: 10px;
+}
+
+.add-category{
+    display: flex; 
+}
+
+.add-category select,.add-category input{
+    max-width: 120px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.add-btn{
+    max-width: 120px;
+    border: none;
+    padding: 10px;
+    background-color:#405d02 ;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.add-date {
+    margin: 1rem 0; /* Space above and below the date input */
+}
+
+.add-date p {
+    margin-bottom: 0.5rem; /* Space between label and input */
+    font-weight: bold; /* Bold label */
+}
+
+.add-date input[type="date"] {
+    padding: 0.5rem; /* Padding inside the input */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 4px; /* Rounded corners */
+    width: 100%; /* Full width */
+    max-width: 300px; /* Limit the width */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+.add-date input[type="date"]:focus {
+    outline: none; /* Remove outline on focus */
+    border-color: #007bff; /* Blue border on focus */
+}
+
+.error-message {
+    color: red; /* Red text for error message */
+    font-size: 0.875rem; /* Smaller font size for error message */
+    margin-top: 0.5rem; /* Space above error message */
+}
+.error-messages {
+    color: red; /* Color for error messages */
+    margin-top: 10px; /* Space above error messages */
+}
+
+.error {
+    margin: 0; /* No margin for individual error messages */
+}
+
+.add-date p {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.add-date input[type="date"] {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s;
+}
+
+.add-date input[type="date"]:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+}
+
+.error-messages {
+    color: red;
+    margin-top: 10px;
+}
+
+.error {
+    margin: 0;
+}

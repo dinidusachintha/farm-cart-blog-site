@@ -1,0 +1,176 @@
+.blog-post {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-post-header {
+    text-align: center;
+  }
+  
+  .blog-post-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .blog-post-image {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .blog-post-details {
+    margin: 20px 0;
+    font-size: 1em;
+    color: #555;
+  }
+  
+  .blog-post-category,
+  .blog-post-date {
+    margin: 5px 0;
+  }
+  
+  .blog-post-content {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  
+  .blog-post-content p {
+    margin-bottom: 20px; /* Adjust this value to control space between paragraphs */
+  }
+  
+  /* Optional: You can add top margin if needed */
+  .blog-post-content p {
+    margin: 20px 0; /* Adds space above and below each paragraph */
+  }
+  
+  /* Blog Post Styles */
+.blog-post {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+/* Rating Section */
+.rating-section {
+  margin-top: 30px;
+}
+
+.rating-stars {
+  display: inline-block;
+}
+
+.rating-stars .star {
+  font-size: 2rem;
+  color: #ccc;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: color 0.3s;
+}
+
+.rating-stars .star.selected {
+  color: #f7d106;
+}
+
+.rating-stars .star:hover {
+  color: #ffce00;
+}
+
+.rating-stars .star:hover ~ .star {
+  color: #ccc;
+}
+
+/* Comment Section Styles */
+.comments-section {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 2px solid #eee;
+}
+
+.comments-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.comments-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.comments-list li {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  position: relative;
+}
+
+.comments-list li p {
+  margin-bottom: 5px;
+}
+
+.comment-date {
+  font-size: 12px;
+  color: #888;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.comment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.comment-form textarea {
+  width: 100%;
+  min-height: 120px;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.comment-form textarea:focus {
+  outline: none;
+  border-color: #99dd05;
+}
+
+.comment-form button {
+  align-self: flex-end;
+  padding: 10px 20px;
+  background-color: #6d9d1e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.comment-form button:hover {
+  background-color: #99dd05;
+}
+
+.download-btn {
+  margin-top: 100px;
+  padding: 10px 15px;
+  background-color: #6d9d1e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.download-btn:hover {
+  background-color: #99dd05;
+}

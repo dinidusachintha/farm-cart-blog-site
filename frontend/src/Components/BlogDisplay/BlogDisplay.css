@@ -1,0 +1,29 @@
+.blog-display {
+    margin-top: 30px;
+    padding: 0 20px; /* Add padding for spacing from the edges */
+}
+
+.blog-display h2 {
+    font-size: max(2vw, 24px);
+    font-weight: 600;
+}
+
+.blog-display-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Adjust min width */
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 50px;
+}
+
+.blog-item {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    .blog-display-list {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Adjust grid for smaller screens */
+    }
+}

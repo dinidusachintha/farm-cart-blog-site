@@ -1,0 +1,68 @@
+.list-table-format {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+    
+  }
+  
+  .list-table-format img {
+    width: 100px;
+    height: 60px;
+    object-fit: cover;
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .cursor {
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: #fff; /* Text color to white */
+    transition: background-color 0.3s;
+  }
+  
+  /* Delete button - red */
+  .cursor.delete-button {
+    background-color: #ff4d4d; /* Red background */
+    border: 1px solid #ff1a1a;
+  }
+  
+  .cursor.delete-button:hover {
+    background-color: #ff1a1a; /* Darker red on hover */
+  }
+  
+  /* Update button - blue */
+  .cursor.update-button {
+    background-color: #4d79ff; /* Blue background */
+    border: 1px solid #1a53ff;
+    margin-left: auto; /* Ensures Update button goes to the right */
+  }
+  
+  .cursor.update-button:hover {
+    background-color: #1a53ff; /* Darker blue on hover */
+  }
+  
+  .search-input {
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  .search-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  
